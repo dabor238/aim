@@ -10,6 +10,10 @@
   font-size: 17px !important;
   color: #c5c5c5 !important;
 }
+.textoFooter {
+  font-size: 15px !important;
+  color: #c5c5c5 !important;
+}
 .textoBold {
   font-family: 'Cabin', sans-serif;
   color: #FFF;
@@ -17,4 +21,7 @@
 }
 .lineamenos{
   margin-bottom: 0px !important;
+}
+.txtFooter{
+    font-size:15px;
 }

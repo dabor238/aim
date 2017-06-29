@@ -420,7 +420,7 @@
 	/*background: #000 url(../../img/demos/construction/footer-construction.jpg) no-repeat 50% 50%;*/
 	background:#000;
 	border-top: 0;
-	padding: 60px 0 30px;
+	padding: 60px 0 0px;
 	min-height: 400px;
 	overflow: hidden;
 }
@@ -442,15 +442,21 @@
 }
 #footer .newsletter form {
 	max-width: 100%;
-	margin: 27px 0 12px;
+	margin: 8px 0 12px;
 }
 #footer .newsletter form input.form-control {
 	height: 45px;
 	padding: 12px;
 }
 #footer .newsletter form .btn {
-	height: 45px;
-	width: 45px;
+	/*height: 45px;
+	width: 45px;*/
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 #footer .fa {
 	display: inline-block;
@@ -477,7 +483,7 @@
 		margin-top: 75px;
 	}
 	#footer:after {
-		background: #000 none repeat scroll 0 0;
+		/*background:  none repeat scroll 0 0;*/
 		bottom: -233px;
 		content: "";
 		height: 400px;
