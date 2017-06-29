@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+.fuentetitulo {
+  font-family: 'Cabin', sans-serif;
+  color: #FFF;
+}
+.margentitulo {
+  margin-top: 80px;
+}
+.textoEmpresa {
+  font-size: 17px !important;
+  color: #c5c5c5 !important;
+}
+.textoBold {
+  font-family: 'Cabin', sans-serif;
+  color: #FFF;
+  font-weight: 800;
+}
