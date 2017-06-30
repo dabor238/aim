@@ -1,9 +1,9 @@
 a {
-	color: #e04622;
+	color: #4bacd3;
 }
 
 a:hover {
-	color: #e35938;
+	color: #4bacd3;
 }
 
 a:focus {
@@ -374,21 +374,21 @@ html .label-light {
 
 html .btn-primary {
 	color: #ffffff;
-	background-color: #e04622;
-	border-color: #e04622 #e04622 #b63719;
+	background-color: #4bacd3;
+	border-color: #4bacd3 #4bacd3 #4bacd3;
 }
 
 html .btn-primary:hover {
-	border-color: #e35938 #e35938 #cc3e1d;
-	background-color: #e35938;
+	border-color: #4bacd3 #4bacd3 #4bacd3;
+	background-color: #4bacd3;
 }
 
 html .btn-primary:active,
 html .btn-primary:focus,
 html .btn-primary:active:hover,
 html .btn-primary:active:focus {
-	border-color: #cc3e1d #cc3e1d #cc3e1d;
-	background-color: #cc3e1d;
+	border-color: #4bacd3 #4bacd3 #4bacd3;
+	background-color: #4bacd3;
 }
 
 html .btn-primary.dropdown-toggle {
@@ -2483,8 +2483,8 @@ html[dir="rtl"] .tabs.tabs-vertical.tabs-right .nav-tabs li.active a:focus {
 .list.list-icons li a:first-child > .fa:first-child,
 .list.list-icons li > .icons:first-child,
 .list.list-icons li a:first-child > .icons:first-child {
-	color: #e04622;
-	border-color: #e04622;
+	color: #4bacd3;
+	border-color: #4bacd3;
 }
 
 .list.list-icons.list-icons-style-3 li > .fa:first-child,

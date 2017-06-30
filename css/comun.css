@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 .fuentetitulo {
   font-family: 'Cabin', sans-serif;
-  color: #FFF;
+  color: #FFF!important;
 }
 .margentitulo {
   margin-top: 80px;
@@ -24,4 +24,9 @@
 }
 .txtFooter{
     font-size:15px;
+}
+.fuenteFooter{
+  font-family: 'Cabin', sans-serif;
+  color: #FFF!important;
+  font-size: 25px;
 }
