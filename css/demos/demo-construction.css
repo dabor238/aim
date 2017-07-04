@@ -165,6 +165,7 @@
 	overflow: hidden;
 	transform: rotate(-45deg);
 }
+/*color de letra center backgroud*/
 .diamonds .diamond:after {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -175,7 +176,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #000;
+	background: none;
 	opacity: 0;
 	transform: scale(0);
 	z-index: 100;
@@ -198,28 +199,122 @@
 	width: 255px;
 	position: relative;
 }
-.diamonds .content:after {
+.diamondsTelas .content:after {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
-	color: #fff;
-	content: "\e091";
-	font-family: "simple-line-icons";
+	color: #fff!important;
+	content: "TELAS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
 	font-size: 28px;
-	left: 27%;
+	left: 20%;
 	margin: -6px -12px;
 	opacity: 0;
 	position: absolute;
 	top: 50%;
 	z-index: 1000;
 	transform: scale(2);
+    font-weight: 800;
+}
+
+.diamondsOveroles .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "OVEROLES";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	left: 12%;
+	margin: -6px -12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+
+.diamondsCamisas .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "CAMISAS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	left: 15%;
+	margin: -6px -12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+.diamondsPantalones .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #FFF!important;
+	content: "PANTALONES";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	left: 10%;
+	margin: -6px -12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+.diamondsCamisetas .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "CAMISETAS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 18px;
+	left: 2%;
+	margin: -6px -12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+.diamondsChompas .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "CHOMPAS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 18px;
+	left: 2%;
+	margin: -6px -12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
 }
 .diamonds .content img {
 	margin-left: -25%;
 	max-width: 375px;
 }
 .diamonds .diamond-sm .content:after {
-	left: 24%;
+	left: 11%;
 	top: 48%;
 }
 
@@ -454,9 +549,9 @@
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 #footer .fa {
 	display: inline-block;
