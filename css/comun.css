@@ -42,3 +42,9 @@
     font-family: 'Cabin', sans-serif;
     font-size:20px;
 }
+.lineaBlanca{
+    background: transparent;
+    margin: -10px 0 0;
+    padding: 20px 0 0;
+    border-top: 1px solid #FFF!important;
+}
