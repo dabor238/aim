@@ -136,21 +136,16 @@
                         <!--inicio-->
                         <div class="row mb-xl pt-xs" style="padding-top: 60px !important;">
                             <div class="row mb-xlg">
-                                <div class="col-md-6">
-                                    <div id="demo" data-zoomed="https://unsplash.it/1024/768?image=528">
-                                        <img src="https://unsplash.it/640/480?image=528" alt="">
+                                <div class="col-md-5">
+                                    <div id="demo">
+																				<img src="https://unsplash.it/450/450?image=528" class="zoom" data-magnify-src="https://unsplash.it/758/758?image=528">
                                     </div>
-
                                 </div>
-                                <div class="col-md-6">
-
+                                <div class="col-md-7">
                                     <div class="project-detail-construction">
-
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus.</p>
-
                                         <div class="row">
                                             <div class="col-md-5">
-
                                                 <ul class="list-project-details">
                                                     <li>
                                                         <label>Project Location:</label>
@@ -169,7 +164,6 @@
                                                         <p>Okler Themes</p>
                                                     </li>
                                                 </ul>
-
                                             </div>
                                             <div class="col-md-7">
                                                 <div class="progress-bars progress-bars-project-detail">
@@ -214,13 +208,9 @@
                             </div>
                         </div>
                         <!--fin-->
-
 					</div>
 				</section>
-
-
 			</div>
-
 			<footer id="footer">
 				<div class="container" style="margin-top: -30px;">
 					<div class="row lineaBlanca" style="margin-bottom: 25px;">
@@ -294,14 +284,19 @@
 		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
 		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 		<script src="vendor/vide/vide.min.js"></script>
+		<!--zoom-->
+		<link rel="stylesheet" href="css/magnify.css">
+		<!-- <script src="//code.jquery.com/jquery-2.2.4.min.js"></script> -->
+		<script src="js/jquery.magnify.js"></script>
+		<!-- Optional mobile plugin (uncomment the line below to enable): -->
+    <script src="js/jquery.magnify-mobile.js"></script>
+		<script>
+			$(document).ready(function() {
+			  $('.zoom').magnify();
+			});
+		</script>
+		<!--fin zoom--->
 
-        <script src="js/evenZoom.js"></script>
-        <script>
-            $("#demo").evenZoom({
-                lensPinningDistance: 20
-            });
-
-        </script>
 
         <!--plugin flip image-->
         <script src="js/jquery.flip.min.js"></script>
