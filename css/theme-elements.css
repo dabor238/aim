@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*
 Name: 			theme-elements.css
 Written by: 	Okler Themes - (http://www.okler.net)
@@ -5128,7 +5128,7 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 	position: relative;
 	text-decoration: none;
 	max-width: 100%;
-	background-color: #FFF;
+	background-color: #000;
 	border: 1px solid #DDD;
 	border-radius: 4px;
 	overflow: hidden;
