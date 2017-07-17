@@ -2901,7 +2901,7 @@ html[dir="rtl"] #header .tip.skin:before {
 }
 
 #header .header-btn-collapse-nav {
-	background: #e04622;
+	background: #4bacd3;
 }
 
 @media (min-width: 992px) {
@@ -3002,21 +3002,21 @@ html[dir="rtl"] #header .tip.skin:before {
 
 @media (min-width: 992px) {
 	#header .header-nav-main nav > ul > li > a.dropdown-toggle:after {
-		border-color: #e04622 transparent transparent transparent;
+		border-color: #4bacd3 transparent transparent transparent;
 	}
 
 	html #header .header-nav-main nav > ul > li.active > a.dropdown-toggle:after,
 	html #header .header-nav-main nav > ul > li:hover > a.dropdown-toggle:after {
-		border-color: #e04622 transparent transparent transparent;
+		border-color: #4bacd3 transparent transparent transparent;
 	}
 
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary a {
-		color: #e04622;
+		color: #4bacd3;
 	}
 
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary a:focus,
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary a:hover {
-		background: #e04622;
+		background: #4bacd3;
 		color: #ffffff;
 	}
 
@@ -3302,23 +3302,23 @@ html[dir="rtl"] #header .tip.skin:before {
 	#header .header-nav-main nav > ul > li > a,
 	#header .header-nav-main nav > ul > li > a:focus,
 	#header .header-nav-main nav > ul > li > a:hover {
-		color: #e04622;
+		color: #4bacd3;
 	}
 
 	#header .header-nav-main nav > ul > li.active > a,
 	#header .header-nav-main nav > ul > li.active > a:focus,
 	#header .header-nav-main nav > ul > li.active > a:hover {
-		background-color: #e04622;
+		background-color: #4bacd3;
 	}
 }
 
 @media (max-width: 991px) {
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary > a {
-		color: #e04622;
+		color: #4bacd3;
 	}
 
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary.active > a {
-		background: #e04622;
+		background: #4bacd3;
 		color: #ffffff;
 	}
 

@@ -431,7 +431,7 @@ html.sticky-header-active #header.header-semi-transparent .header-body:before {
 
 html #header.header-semi-transparent-light .header-body:before {
 	opacity: 0.1;
-	background: #FFF;
+	background: #000;
 }
 
 html.sticky-header-enabled #header.header-semi-transparent-light .header-body {
@@ -445,7 +445,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 
 html.sticky-header-active #header.header-semi-transparent-light .header-body:before {
 	border-bottom: 1px solid #f1f1f1;
-	opacity: 0.9;
+	opacity: 0.2;
 }
 
 html #header.header-transparent-bottom-border .header-body {
