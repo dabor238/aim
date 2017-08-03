@@ -54,3 +54,8 @@
 .customTitle{
     color:#fff!important;
 }
+@media (min-width: 479px) {
+     .claseWeb{
+        padding-left: 55px;
+     }
+}
