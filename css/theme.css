@@ -16,6 +16,7 @@ body {
 	font-size: 14px;
 	line-height: 22px;
 	margin: 0;
+    overflow-x: hidden;
 }
 
 body a {
@@ -406,7 +407,7 @@ html #header.header-semi-transparent .header-body:before, html #header.header-se
 	bottom: 0;
 	background: #000;
 	border-bottom: 0;
-	opacity: 0.3;
+	/*opacity: 0.3;*/
 	-webkit-transition: opacity 0.3s ease;
 	-moz-transition: opacity 0.3s ease;
 	transition: opacity 0.3s ease;
@@ -430,7 +431,7 @@ html.sticky-header-active #header.header-semi-transparent .header-body:before {
 }
 
 html #header.header-semi-transparent-light .header-body:before {
-	opacity: 0.1;
+	/*opacity: 0.1;*/
 	background: #000;
 }
 
@@ -445,7 +446,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 
 html.sticky-header-active #header.header-semi-transparent-light .header-body:before {
 	border-bottom: 1px solid #f1f1f1;
-	opacity: 0.2;
+	/*opacity: 0.2;*/
 }
 
 html #header.header-transparent-bottom-border .header-body {
