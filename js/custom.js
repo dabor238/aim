@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     //codigo para banderas
         var itaImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Italien.gif";
-        var engImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif";
+        var engImgLink = "img/banderas/america.gif";
         var deuImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Deutschland.gif";
         var fraImgLink = "img/banderas/espanol.gif";
 

@@ -218,6 +218,25 @@
     font-weight: 800;
 }
 
+.diamondsCloth .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "CLOTH";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	left: 20%;
+	margin: -6px -12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+
 .diamondsOveroles .content:after {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -237,6 +256,45 @@
     font-weight: 800;
 }
 
+.diamondsCoveralls  .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "COVERALLS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	left: 12%;
+	margin: -6px -12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+
+
+.diamondsShirts .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "SHIRTS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	left: 15%;
+	margin: -6px 12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+
 .diamondsCamisas .content:after {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -247,7 +305,7 @@
 	font-family: 'Cabin', sans-serif;
 	font-size: 28px;
 	left: 15%;
-	margin: -6px -12px;
+	margin: -6px 4px;
 	opacity: 0;
 	position: absolute;
 	top: 50%;
@@ -273,6 +331,26 @@
 	transform: scale(2);
     font-weight: 800;
 }
+
+.diamondsPants .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #FFF!important;
+	content: "PANTS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 28px;
+	left: 10%;
+	margin: -6px 20px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+
 .diamondsCamisetas .content:after {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -291,6 +369,26 @@
 	transform: scale(2);
     font-weight: 800;
 }
+
+.diamondsTshirts .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "TSHIRTS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 18px;
+	left: 1%;
+	margin: -6px 12px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+
 .diamondsChompas .content:after {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -309,6 +407,26 @@
 	transform: scale(2);
     font-weight: 800;
 }
+
+.diamondsSweaters .content:after {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #fff!important;
+	content: "SWEATERS";
+	/*content: "\e091";*/
+	font-family: 'Cabin', sans-serif;
+	font-size: 18px;
+	left: 10%!important;
+	margin: -6px -8px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	transform: scale(2);
+    font-weight: 800;
+}
+
 .diamonds .content img {
 	margin-left: -25%;
 	max-width: 375px;
