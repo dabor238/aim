@@ -539,7 +539,7 @@
 .section-custom-construction .container {
 	position: relative;
 }
-.section-custom-construction .container:after {
+/*.section-custom-construction .container:after {
 	background: #000 none repeat scroll 0 0;
 	bottom: -220px;
 	content: "";
@@ -549,8 +549,8 @@
 	transform: rotate(50deg);
 	width: 200px;
 	z-index: 1;
-}
-.section-custom-construction .container:before {
+}*/
+/*.section-custom-construction .container:before {
 	background: #000 none repeat scroll 0 0;
 	bottom: -235px;
 	content: "";
@@ -560,7 +560,7 @@
 	transform: rotate(50deg);
 	width: 200px;
 	z-index: 2;
-}
+}*/
 
 @media (min-width: 992px) {
 	.section-custom-construction-2 {
