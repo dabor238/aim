@@ -3,6 +3,14 @@
   font-family: 'Cabin', sans-serif;
   color: #FFF!important;
 }
+.fuenteCabin{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+.verColores{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .margentitulo {
   margin-top: 80px;
 }

@@ -1669,12 +1669,13 @@ ul.sitemap.list ul {
 	margin: 0;
 	padding: 0;
 	font-size: 0;
-	border-bottom-color: #EEE;
+	border-bottom-color: black;
 }
 
 .nav-tabs li {
 	display: inline-block;
 	float: none;
+    width:100px;
 }
 
 .nav-tabs li:last-child a {
@@ -1688,17 +1689,17 @@ ul.sitemap.list ul {
 }
 
 .nav-tabs li a, .nav-tabs li a:hover {
-	background: #F4F4F4;
+	background: #000;
 	border-bottom: none;
-	border-left: 1px solid #EEE;
-	border-right: 1px solid #EEE;
-	border-top: 3px solid #EEE;
-	color: #CCC;
+	border-left: 1px solid #4bacd3;
+	border-right: 1px solid #000;
+	border-top: 3px solid #000;
+	color: #fff;
 }
 
 .nav-tabs li a:hover {
 	border-bottom-color: transparent;
-	border-top: 3px solid #CCC;
+	border-top: 3px solid #000;
 	box-shadow: none;
 }
 
@@ -1709,18 +1710,18 @@ ul.sitemap.list ul {
 .nav-tabs li.active a,
 .nav-tabs li.active a:hover,
 .nav-tabs li.active a:focus {
-	background: #FFF;
-	border-left-color: #EEE;
-	border-right-color: #EEE;
-	border-top: 3px solid #CCC;
-	color: #CCC;
+	background: #000;
+	border-left-color: #4bacd3;
+	border-right-color: #000;
+	border-top: 3px solid #000;
+	color: #4bacd3;
 }
 
 .tab-content {
 	border-radius: 0 0 4px 4px;
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
-	background-color: #FFF;
-	border: 1px solid #EEE;
+	background-color: black;
+	border: 1px solid #000;
 	border-top: 0;
 	padding: 15px;
 }
