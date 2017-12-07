@@ -351,6 +351,44 @@
     font-weight: 800;
 }
 
+.diamondsCamuflaje .content:after {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    color: #fff !important;
+    content: "CAMOUFLAGE";
+    /*content: "\e091";*/
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    left: 10% !important;
+    margin: -2px -22px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    transform: scale(2);
+    font-weight: 800;
+}
+
+.diamondsCamuflajeEs .content:after {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    color: #fff !important;
+    content: "CAMUFLAJE";
+    /*content: "\e091";*/
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    left: 10% !important;
+    margin: -2px -22px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    transform: scale(2);
+    font-weight: 800;
+}
+
 .diamondsCamisetas .content:after {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
