@@ -110,7 +110,7 @@
                                                             <img id="imgNavFra" src="" alt="..." class="img-thumbnail icon-small">&nbsp;<span id="imgNavFra">ESP</span> <!--<span class="caret"></span>-->
                                                         </a>
                                                         <ul class="dropdown-menu" role="menu">
-                                                            <li><a id="navEng" href="home.html" class="language"><img id="imgNavEng" src="" alt="English" class="img-thumbnail icon-small">&nbsp;<span id="lanNavEng">English</span></a></li>
+                                                            <li><a id="navEng" href="contactus.html" class="language"><img id="imgNavEng" src="" alt="English" class="img-thumbnail icon-small">&nbsp;<span id="lanNavEng">English</span></a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
@@ -141,51 +141,45 @@
 
 								<!--<p class="lead mb-xl mt-xs">D&eacute;janos tus datos o ll&aacute;manos para saber como podemos ayudarte</p>-->
 
-								<div class="alert alert-success hidden mt-lg" id="contactSuccess">
-									<strong>Success!</strong> Your message has been sent to us.
-								</div>
+							
 
-								<div class="alert alert-danger hidden mt-lg" id="contactError">
-									<strong>Error!</strong> There was an error sending your message.
-									<span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
-								</div>
 
-								<form id="contactForm" action="php/contact-form.php" method="POST" style="margin-top:20px;">
+								<form id="contactForm" style="margin-top:20px;">
 									<div class="row">
 										<div class="form-group">
 											<div class="col-md-12">
-												<input type="text" placeholder="Nombre y Apellido" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control name="name" id="name" required>
+												<input type="text" placeholder="Nombre y Apellido" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control name="name" id="nombreContacto" required>
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group">
 											<div class="col-md-12">
-												<input type="email" placeholder="Correo Electr&oacute;nico" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control name="email" id="email" required>
+												<input type="email" placeholder="Correo Electr&oacute;nico" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control name="email" id="emailContacto" required>
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group">
 											<div class="col-md-12">
-												<input type="number" placeholder="N&uacute;mero de tel&eacute;fono" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control name="subject" id="subject" required>
+												<input type="number" placeholder="N&uacute;mero de tel&eacute;fono" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control name="subject" id="numeroContacto" required>
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group">
 											<div class="col-md-12">
-												<textarea maxlength="5000" placeholder="Mensaje" data-msg-required="Please enter your message." rows="5" class="form-control name="message" id="message" required></textarea>
+												<textarea maxlength="5000" placeholder="Mensaje" data-msg-required="Please enter your message." rows="5" class="form-control name="message" id="texto" required></textarea>
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<input type="submit" value="Enviar" class="btn btn-primary mb-xlg" data-loading-text="Loading...">
+											<input value="Enviar" class="btn btn-primary mb-xlg" id="enviarDatosContacto" data-loading-text="Loading...">
 										</div>
 									</div>
 								</form>
-
+                                <p id="graciasContacto">Nos contactaremos contigo lo antes posible</p>
 							</div>
 							<div class="col-md-4 col-md-offset-1">
 

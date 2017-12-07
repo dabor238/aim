@@ -1,4 +1,74 @@
 $(document).ready(function () {
+    $('#gracias').hide();
+    $('#graciasContacto').hide();
+    $('#enviarDatos').click(function () {
+        var nombre = $('#nombreDatos').val();
+        var email = $('#emailDatos').val();
+        var telefono = $('#numeroDatos').val();
+        var texto = '-';
+        var usuarioRequest = {
+            Nombre: nombre,
+            Email: email,
+            Telefono: telefono,
+            TextArea: texto,
+            IdPrograma: 13,
+            IdLanding: 6
+        }
+        $.ajax({
+            type: 'POST',
+            url: 'http://www.instaclientes.com/api/usuarios/IngresoDatos',
+            dataType: 'json',
+            data: JSON.stringify(usuarioRequest),
+            contentType: 'application/json; charset=utf-8',
+            async: false,
+            success: function (data) {
+                $('#newsletterForm2').hide();
+                $('#gracias').show('slow');
+            },
+            error: function (xhr) {
+                alert('Problemas al ingresar los datos. Intente nuevamente.');
+
+            }
+        });
+    });
+
+    $('#enviarDatosContacto').click(function () {
+        var nombre = $('#nombreContacto').val();
+        var email = $('#emailContacto').val();
+        var telefono = $('#numeroContacto').val();
+        var texto = $('#texto').val();;
+        var usuarioRequest = {
+            Nombre: nombre,
+            Email: email,
+            Telefono: telefono,
+            TextArea: texto,
+            IdPrograma: 13,
+            IdLanding: 6
+        }
+        $.ajax({
+            type: 'POST',
+            url: 'http://www.instaclientes.com/api/usuarios/IngresoDatos',
+            dataType: 'json',
+            data: JSON.stringify(usuarioRequest),
+            contentType: 'application/json; charset=utf-8',
+            async: false,
+            success: function (data) {
+                $('#contactForm').hide();
+                $('#graciasContacto').show('slow');
+            },
+            error: function (xhr) {
+                alert('Problemas al ingresar los datos. Intente nuevamente.');
+
+            }
+        });
+    });
+    $("#newsletterForm2").submit(function (e) {
+        e.preventDefault();
+    });
+
+    $("#contactForm").submit(function (e) {
+        e.preventDefault();
+    });
     function borrarTodo() {
         $('#uno').hide();
         $('#dos').hide();
