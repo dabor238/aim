@@ -242,11 +242,11 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "OVEROLES";
+	content: "OVEROL";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 28px;
-	left: 12%;
+	left: 15%;
 	margin: -6px -12px;
 	opacity: 0;
 	position: absolute;
@@ -261,11 +261,11 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "OVERALLS";
+	content: "OVERALL";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 28px;
-	left: 12%;
+	left: 15%;
 	margin: -6px -12px;
 	opacity: 0;
 	position: absolute;
@@ -281,11 +281,11 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "SHIRTS";
+	content: "SHIRT";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 28px;
-	left: 10%;
+	left: 13%;
 	margin: -6px 12px;
 	opacity: 0;
 	position: absolute;
@@ -300,11 +300,11 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "CAMISAS";
+	content: "CAMISA";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 28px;
-	left: 10%;
+	left: 12%;
 	margin: -6px 4px;
 	opacity: 0;
 	position: absolute;
@@ -356,11 +356,11 @@
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
     color: #fff !important;
-    content: "PANTS";
+    content: "PANT";
     /*content: "\e091";*/
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
-    left: 22% !important;
+    left: 25% !important;
     margin: -2px -22px;
     opacity: 0;
     position: absolute;
@@ -375,11 +375,11 @@
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
     color: #fff !important;
-    content: "PANTALONES";
+    content: "PANTALÓN";
     /*content: "\e091";*/
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
-    left: 5% !important;
+    left: 8% !important;
     margin: -0px -10px;
     opacity: 0;
     position: absolute;
@@ -394,7 +394,7 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "CAMISETAS";
+	content: "CAMISETA";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 18px;
@@ -413,7 +413,7 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "T-SHIRTS";
+	content: "T-SHIRT";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 18px;
@@ -432,7 +432,7 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "  CHOMPAS";
+	content: "  CHOMPA";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 18px;
@@ -451,7 +451,7 @@
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff!important;
-	content: "JACKETS";
+	content: "JACKET";
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 18px;
