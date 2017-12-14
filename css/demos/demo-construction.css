@@ -265,7 +265,7 @@
 	/*content: "\e091";*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 28px;
-	left: 15%;
+	left: 13%;
 	margin: -6px -12px;
 	opacity: 0;
 	position: absolute;
@@ -356,11 +356,11 @@
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
     color: #fff !important;
-    content: "PANT";
+    content: "TROUSER";
     /*content: "\e091";*/
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
-    left: 25% !important;
+    left: 18% !important;
     margin: -2px -22px;
     opacity: 0;
     position: absolute;
